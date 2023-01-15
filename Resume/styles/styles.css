@@ -1,11 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
 }
 
 .main {
     display: flex;
     flex-direction: row-reverse;
-    background-color: #F5F7FA;
     width: 1200px;
     margin: 0 auto;
 }
@@ -14,32 +14,31 @@ body {
 
 .main-content {
     background-color: #FFF;
-    padding-left: 88px;
-    width: 830px;
+    padding: 102px 88px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .about {
-    margin-top: 102px;
-    width: 400px;
+    margin-bottom: 40px;
 }
 
-.hero-profession {
+
+.about-profession {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-top: 0;
     margin-bottom: 19px;
 }
 
-.hero-title {
+.about-title {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
     color: #000000;
-    margin: 0;
+    margin-bottom: 24px;
 }
 
 .about-text {
@@ -48,8 +47,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    margin-top: 24px;
-    margin-bottom: 40px;
+    width: 400px;
 }
 
 .projects-title {
@@ -58,14 +56,15 @@ body {
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+}
+
+.projects {
+    margin-bottom: 50px;
 }
 
 .projects-list {
-    margin-top: 8px;
-    padding: 0 20px;
-    margin-bottom: 51px;
+    padding: 0 20px; 
 }
 
 .list-number {
@@ -77,6 +76,10 @@ body {
 }
 
 .projects-links {
+    margin-left: 10px;
+}
+
+.projects-links, .projects-links-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -85,21 +88,12 @@ body {
     text-decoration: none;
 }
 
-.projects-links-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-
 .work-title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-top: 16px;
     margin-bottom: 11px;
 }
 
@@ -120,6 +114,14 @@ body {
     margin: 0;
 }
 
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
 .work-list {
     font-style: normal;
     font-weight: 400;
@@ -129,6 +131,7 @@ body {
     margin-left: 14px;
     padding: 0;
     margin-top: 8px;
+    margin-right: 100px;
 }
 
 .work-profession-style {
@@ -141,7 +144,15 @@ body {
 
 .education {
     margin-top: 43px;
-    margin-bottom: 107px;
+}
+
+.education-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
 }
 
 .education-place {
@@ -150,6 +161,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #FB6D3A;
+    margin-bottom: 12px;
 }
 
 
@@ -185,7 +197,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     color: #565E6A;
     margin-left: 12px;
     text-decoration: none;
